@@ -1,6 +1,6 @@
 [data-theme="dark"] {
-  --primary: #d81b60;
-  --primary-hover: #e91e63;
+  --primary: #c46e6e;
+  --primary-hover: #c45d5d;
   --primary-focus: rgba(216, 27, 96, 0.25);
   --primary-inverse: #fff;
 }
@@ -30,19 +30,11 @@ small {
 }
 
 .hero {
-  background: linear-gradient(-45deg, #000022, #4F6D7A, #A0D2DB);
+	background: linear-gradient(-45deg, #01024E, #543864, #8B4367);
   background-size: 400% 400%;
-  animation: gradient 60s ease infinite;
-  background-position: center;
-  /* background-size: cover; */
+  animation: gradient 15s ease infinite;
+  background-position: center;  
 }
-
-/* body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-} */
 
 @keyframes gradient {
 	0% {
@@ -71,7 +63,9 @@ header hgroup {
 
 .spacing {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly ;
+  white-space: nowrap;
 }
 
 .contact-info {
@@ -82,9 +76,7 @@ header hgroup {
 article {
   margin-left: 16%;
   margin-right: 16%;
-  padding-left: 8%;
-  padding-right: 8%;
-
+  padding: 4% 8% 4% 8%;
 }
 
 .fa-solid {
@@ -101,4 +93,18 @@ a:active{
 
 footer {
   text-align: center;
+  padding: unset;
+}
+
+.resume {
+  text-align: center;
+  padding-top: 5%;
+}
+
+footer.container {
+  padding: unset;
+}
+
+header.container {
+  padding-bottom: 1%;
 }
