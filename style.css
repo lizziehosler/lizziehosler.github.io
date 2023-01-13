@@ -1,6 +1,6 @@
 [data-theme="dark"] {
   --primary: #c46e6e;
-  --primary-hover: #c45d5d;
+  --primary-hover: #bb5353;
   --primary-focus: rgba(216, 27, 96, 0.25);
   --primary-inverse: #fff;
 }
@@ -69,7 +69,7 @@ header hgroup {
 }
 
 .contact-info {
-  font-size: 20pt;
+  font-size: 1.5em;
   color: var(--primary);
 }
 
@@ -80,7 +80,8 @@ article {
 }
 
 .fa-solid {
-  font-size: 8pt;
+  font-size: 1em;
+  vertical-align: middle;
 }
 
 .fab a,
